@@ -1,4 +1,25 @@
 Application de location de voitures
+
+les étapes de réalisation :
+
+1. Planification et conception : Analysez les exigences de l'application et concevez une structure de base pour les fonctionnalités et l'interface utilisateur.
+
+2. Configuration de l'environnement de développement : Installez les outils et les bibliothèques nécessaires, tels que Python, PyQt et MySQL.
+
+3. Création de la base de données : Concevez et créez les tables de la base de données pour stocker les informations sur les clients, les voitures et les contrats.
+
+4. Développement de l'interface utilisateur : Utilisez PyQt pour concevoir et implémenter les différents formulaires et widgets nécessaires pour l'application, tels que les formulaires d'ajout de clients, d'ajout de voitures, de recherche de voitures, d'ajout de contrats et d'affichage des contrats.
+
+5. Implémentation des fonctionnalités : Développez les fonctions Python pour gérer les opérations sur les données, telles que l'ajout de clients, l'ajout de voitures, la recherche de voitures, la génération de contrats PDF, la mise à jour des contrats expirés, etc.
+
+6. Intégration des fonctionnalités avec l'interface utilisateur : Connectez les fonctions Python aux widgets et aux boutons de l'interface utilisateur pour permettre aux utilisateurs d'interagir avec l'application.
+
+7. Authentification et sécurité : Implémentez une page de connexion pour assurer la sécurité de l'application et protéger les informations sensibles.
+
+8. Tests et débogage : Testez l'application pour détecter et corriger les erreurs éventuelles, et vérifiez que toutes les fonctionnalités fonctionnent comme prévu.
+
+9. Documentation : Rédigez un fichier README détaillé pour aider les utilisateurs et les développeurs à comprendre le fonctionnement de l'application et la manière de l'utiliser.
+
 Cette application de location de voitures permet de gérer les clients, les voitures, les contrats et les utilisateurs. Les fonctionnalités principales sont les suivantes:
 *	Ajouter un client
 *	Ajouter une voiture
