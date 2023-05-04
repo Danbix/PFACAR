@@ -65,13 +65,11 @@ Pour utiliser cette application, assurez-vous d'avoir installé les bibliothèqu
 Installation et configuration
 Avant d'utiliser cette application, assurez-vous d'avoir installé les bibliothèques nécessaires et de disposer d'une base de données MySQL configurée avec les tables fournies dans le code. Pour ce faire, suivez les étapes ci-dessous:
 1.	Installez les bibliothèques nécessaires en utilisant pip:
-Copy code
-pip install PyQt5 pip install mysql-connector-python 
+*pip install PyQt5 pip install mysql-connector-python 
 2.	Configurez votre base de données MySQL en important les tables client, voiture et contract fournies dans le code. Vous pouvez le faire en utilisant un outil comme MySQL Workbench ou phpMyAdmin.
 3.	Assurez-vous que les informations de connexion à la base de données sont correctes dans le code. Modifiez la méthode connect_db(self) si nécessaire, en spécifiant le bon nom d'utilisateur, mot de passe et nom de la base de données.
 4.	Exécutez l'application en lançant le fichier principal test.py:
-Copy code
-python test.py 
+* python main.py 
 Utilisation de l'application
 Une fois l'application lancée, vous devrez vous connecter ou créer un compte utilisateur. Après vous être connecté, vous pourrez accéder aux différentes fonctionnalités de l'application, notamment ajouter des clients et des voitures, rechercher des voitures, créer des contrats et afficher la liste des contrats existants.
 Voici quelques conseils pour utiliser les différentes fonctionnalités de l'application:
